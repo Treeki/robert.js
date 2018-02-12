@@ -32,7 +32,7 @@ Each `BobResource` contains the following:
 Provides a rudimentary implementation of the WMF format that renders to a
 HTML5 Canvas.
 
-### demo_actors.js, actors.html
+### demo_actors.js, actors.html
 
 Loads and renders actors from Bob and Office 97 (and also other animation
 files used in the Bob Home, just for the hell of it).
