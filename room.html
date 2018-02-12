@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			html,body {
+				padding: 0;
+				margin: 0;
+				width: 100%;
+				height: 100%;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 14px;
+			}
+			body {
+				position: relative;
+			}
+			#roomListContainer {
+				position: absolute;
+				top: 2em;
+				left: 2em;
+				padding: 2em;
+				background: rgba(0, 0, 0, 0.8);
+				border-radius: 8px;
+				box-shadow: 2px 2px 3px black;
+
+				color: white;
+			}
+			a {
+				color: rgb(150,150,250);
+			}
+			#roomList {
+				width: 15em;
+				max-height: 20em;
+				overflow-y: scroll;
+			}
+			#roomList button {
+				display: block;
+				background: transparent;
+				color: #ccc;
+				border: 0;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id='output'></canvas>
+		<div id='roomListContainer'>
+			<div id='roomList'></div>
+			<hr>
+			<a href='https://github.com/Treeki/robert.js'>robert.js</a> on GitHub
+		</div>
+		<script src='wmf.js'></script>
+		<script src='robert.js'></script>
+		<script src='demo_room.js'></script>
+	</body>
+</html>
+
