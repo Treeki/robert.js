@@ -81,6 +81,8 @@ function loadFile(filename) {
 				})
 				buttonHolder.appendChild(button)
 			}
+
+			buttonHolder.firstChild.click()
 		})
 	})
 }
