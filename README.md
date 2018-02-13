@@ -15,6 +15,9 @@ Live demo (requires a modern web browser):
 Created by Ash Wolf (https://github.com/Treeki). Licensed under the MIT
 license.
 
+Think this is awful? Send complaints to me on Twitter:
+[@_Ninji](https://twitter.com/_Ninji)
+
 ### robert.js
 
 Provides `BobPack` and `BobResource` classes. The `BobPack` class parses a
